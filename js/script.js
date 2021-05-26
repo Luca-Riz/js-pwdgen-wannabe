@@ -17,6 +17,6 @@ var password = nome + cognome + colore + numero;
 
 var lowpass = password.toLowerCase();
 
-document.getElementById("psw").innerHTML=password;
+document.getElementById('psw').innerHTML += password;
 
-document.getElementById("lpsw").innerHTML=lowpass;
+document.getElementById('lpsw').innerHTML += lowpass;
