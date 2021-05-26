@@ -15,5 +15,8 @@ var numero = '21'; //numero statico aggiunto a fine pw
 var password = nome + cognome + colore + numero;
 // console.log(password);
 
+var lowpass = password.toLowerCase();
+
 document.getElementById("psw").innerHTML=password;
 
+document.getElementById("lpsw").innerHTML=lowpass;
